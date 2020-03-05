@@ -1,0 +1,58 @@
+
+------------------------------------------------------------
+Figure 7
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.*exp(-x.^2-y.^2)
+
+
+Benchmark_Approximation =
+
+     1.826151807881626e-09
+
+
+benchmark_runtime =
+
+   0.002578841000000
+
+Analytical Result
+
+myInt_approximation =
+
+    -6.558466406148332e-25
+
+
+iter =
+
+     1
+
+
+error =
+
+     2.775557495978227e-17
+
+
+myIntegration_runtime =
+
+     9.259660000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.826151807881627e-09
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.359062850326949
+
+------------------------------------------------------------
+
+
+
+

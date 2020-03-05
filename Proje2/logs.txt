@@ -1,0 +1,923 @@
+------------------------------------------------------------
+Figure 1
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x+y
+
+
+Benchmark_Approximation =
+
+    -2.655475839219434e-11
+
+
+benchmark_runtime =
+
+   0.040964906000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+   0.029107875000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     2.655475839219434e-11
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.710556372325131
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 2
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x-y
+
+
+Benchmark_Approximation =
+
+    -2.655209385693524e-11
+
+
+benchmark_runtime =
+
+   0.013111872000000
+
+Analytical Result
+
+myInt_approximation =
+
+    -1.802777518484591e-15
+
+
+iter =
+
+     1
+
+
+error =
+
+     1.802777518484591e-15
+
+
+myIntegration_runtime =
+
+   0.001489489000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     2.655029107941676e-11
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.113598500656504
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 3
+
+f =
+
+  function_handle with value:
+
+    @(x,y)2*x.^2+2*x.^2
+
+
+Benchmark_Approximation =
+
+     4.059494080240884e+02
+
+
+benchmark_runtime =
+
+   0.004474365000000
+
+Analytical Result
+
+myInt_approximation =
+
+     4.059494080239555e+02
+
+
+iter =
+
+     1
+
+
+error =
+
+     1.136868377216160e-13
+
+
+myIntegration_runtime =
+
+   0.002800185000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.328430698777083e-10
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.625828469514669
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 4
+
+f =
+
+  function_handle with value:
+
+    @(x,y)2*x.^2-2*x.^2
+
+
+Benchmark_Approximation =
+
+     0
+
+
+benchmark_runtime =
+
+   0.002160501000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+   0.001576503000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     0
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.729693251704119
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 5
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.^5+y.^5
+
+
+Benchmark_Approximation =
+
+     1.812274138996916e+03
+
+
+benchmark_runtime =
+
+   0.013373331000000
+
+Analytical Result
+
+myInt_approximation =
+
+     1.812274142972197e+03
+
+
+iter =
+
+    10
+
+
+error =
+
+     7.875228247300470e-12
+
+
+myIntegration_runtime =
+
+  15.104753118000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     3.975280378654134e-06
+
+ My integration/Benchmark runtime
+
+ratio =
+
+     1.129468276676918e+03
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 6
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.^5-y.^5
+
+
+Benchmark_Approximation =
+
+     1.812274138996916e+03
+
+
+benchmark_runtime =
+
+   0.004057981000000
+
+Analytical Result
+
+myInt_approximation =
+
+     1.812274142972278e+03
+
+
+iter =
+
+    10
+
+
+error =
+
+     7.915376687428477e-12
+
+
+myIntegration_runtime =
+
+  14.747057369000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     3.975361778429942e-06
+
+ My integration/Benchmark runtime
+
+ratio =
+
+     3.634087337767230e+03
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 7
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.*exp(-x.^2-y.^2)
+
+
+Benchmark_Approximation =
+
+     1.826151807881626e-09
+
+
+benchmark_runtime =
+
+   0.002578841000000
+
+Analytical Result
+
+myInt_approximation =
+
+    -6.558466406148332e-25
+
+
+iter =
+
+     1
+
+
+error =
+
+     2.775557495978227e-17
+
+
+myIntegration_runtime =
+
+     9.259660000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.826151807881627e-09
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.359062850326949
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 8
+
+f =
+
+  function_handle with value:
+
+    @(x,y)y.*exp(-x.^2-y.^2)
+
+
+Benchmark_Approximation =
+
+    -1.446262820446273e-09
+
+
+benchmark_runtime =
+
+   0.002191577000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+     6.244720000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.446262820446273e-09
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.284941847810960
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 9
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.*exp(-y.^2)
+
+
+Benchmark_Approximation =
+
+   9.285841232720498
+
+
+benchmark_runtime =
+
+   0.002035746000000
+
+Analytical Result
+
+myInt_approximation =
+
+   9.285841178399208
+
+
+iter =
+
+     8
+
+
+error =
+
+     3.314560789972486e-12
+
+
+myIntegration_runtime =
+
+   0.657355013000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     5.432129057680868e-08
+
+ My integration/Benchmark runtime
+
+ratio =
+
+     3.229062039173846e+02
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 10
+
+f =
+
+  function_handle with value:
+
+    @(x,y)y.*exp(-x.^2)
+
+
+Benchmark_Approximation =
+
+     3.765266778921195e-10
+
+
+benchmark_runtime =
+
+   0.002482687000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+     4.830350000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     3.765266778921195e-10
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.194561376444151
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 11
+
+f =
+
+  function_handle with value:
+
+    @(x,y)exp(-x.^2-y.^2)
+
+
+Benchmark_Approximation =
+
+   3.139674932345169
+
+
+benchmark_runtime =
+
+   0.001958439000000
+
+Analytical Result
+
+myInt_approximation =
+
+   3.139674900876965
+
+
+iter =
+
+     6
+
+
+error =
+
+     6.112860825212682e-11
+
+
+myIntegration_runtime =
+
+   0.062434259000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     3.146820404253958e-08
+
+ My integration/Benchmark runtime
+
+ratio =
+
+  31.879603602665181
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 12
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.*sin(2*y)
+
+
+Benchmark_Approximation =
+
+    -5.168747374550975e-11
+
+
+benchmark_runtime =
+
+   0.002341414000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+     4.683230000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     5.168747374550975e-11
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.200017169112340
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 13
+
+f =
+
+  function_handle with value:
+
+    @(x,y)y.*cos(2*x)
+
+
+Benchmark_Approximation =
+
+     4.093947403305265e-16
+
+
+benchmark_runtime =
+
+   0.002723407000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+     4.661660000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     4.093947403305265e-16
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.171170155617578
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 14
+
+f =
+
+  function_handle with value:
+
+    @(x,y)cos(x).*sin(y)
+
+
+Benchmark_Approximation =
+
+     8.587710403906712e-12
+
+
+benchmark_runtime =
+
+   0.002119739000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+     5.876510000000000e-04
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     8.587710403906712e-12
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.277227998352627
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 15
+
+f =
+
+  function_handle with value:
+
+    @(x,y)sin(x).^2.*cos(y).^2
+
+
+Benchmark_Approximation =
+
+   9.504574303857424
+
+
+benchmark_runtime =
+
+   0.002214642000000
+
+Analytical Result
+
+myInt_approximation =
+
+   9.504574374390828
+
+
+iter =
+
+     7
+
+
+error =
+
+     3.157066817878213e-09
+
+
+myIntegration_runtime =
+
+   0.237448251000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     7.053340311813372e-08
+
+ My integration/Benchmark runtime
+
+ratio =
+
+     1.072174423676603e+02
+
+------------------------------------------------------------
+
+
+
+
+qqqq
+------------------------------------------------------------
+Figure 16
+
+f =
+
+  function_handle with value:
+
+    @(x,y)sin(x).*cos(y).^2
+
+
+Benchmark_Approximation =
+
+  -4.838147661662848
+
+
+benchmark_runtime =
+
+   0.002944917000000
+
+Analytical Result
+
+myInt_approximation =
+
+  -4.838147786118201
+
+
+iter =
+
+     7
+
+
+error =
+
+     2.344559024464350e-09
+
+
+myIntegration_runtime =
+
+   0.237627383000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.244553526902337e-07
+
+ My integration/Benchmark runtime
+
+ratio =
+
+  80.690689415015768
+
+------------------------------------------------------------

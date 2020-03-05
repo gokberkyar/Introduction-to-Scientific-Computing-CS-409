@@ -1,0 +1,58 @@
+
+------------------------------------------------------------
+Figure 5
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x.^5+y.^5
+
+
+Benchmark_Approximation =
+
+     1.812274138996916e+03
+
+
+benchmark_runtime =
+
+   0.013373331000000
+
+Analytical Result
+
+myInt_approximation =
+
+     1.812274142972197e+03
+
+
+iter =
+
+    10
+
+
+error =
+
+     7.875228247300470e-12
+
+
+myIntegration_runtime =
+
+  15.104753118000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     3.975280378654134e-06
+
+ My integration/Benchmark runtime
+
+ratio =
+
+     1.129468276676918e+03
+
+------------------------------------------------------------
+
+
+
+

@@ -1,0 +1,55 @@
+Bound [0,2]
+--------------------------------------------------------------------------------------------------------------------------------------------
+***********
+Tolerance = 1e-06
+***********
+                Bisection x:    1.3688077927 f(x):        -0.0000066486    iter_count =       21    Abs_Error: 9.54e-07
+           False Position x:    1.3688079403 f(x):        -0.0000035348    iter_count =        9    Abs_Error: 8.31e-07
+  Modified False Position x:    1.3688081078 f(x):         0.0000000000    iter_count =        8    Abs_Error: 1.72e-12
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 4.44e-08
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12
+***********
+Tolerance = 1e-08
+***********
+                Bisection x:    1.3688081130 f(x):         0.0000001101    iter_count =       28    Abs_Error: 7.45e-09
+           False Position x:    1.3688081070 f(x):        -0.0000000167    iter_count =       12    Abs_Error: 3.92e-09
+  Modified False Position x:    1.3688081078 f(x):         0.0000000000    iter_count =        8    Abs_Error: 1.72e-12
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =        7    Abs_Error: 5.74e-13
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12
+***********
+Tolerance = 1e-10
+***********
+                Bisection x:    1.3688081079 f(x):         0.0000000008    iter_count =       35    Abs_Error: 5.82e-11
+           False Position x:    1.3688081078 f(x):        -0.0000000001    iter_count =       15    Abs_Error: 1.85e-11
+  Modified False Position x:    1.3688081078 f(x):         0.0000000000    iter_count =        8    Abs_Error: 1.72e-12
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =        7    Abs_Error: 5.74e-13
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+ Bound [0,10] 
+--------------------------------------------------------------------------------------------------------------------------------------------
+***********
+Tolerance = 1e-06
+***********
+                Bisection x:    1.3688081503 f(x):         0.0000008960    iter_count =       24    Abs_Error: 5.96e-07
+           False Position x:    1.3688026240 f(x):        -0.0001156881    iter_count =       83    Abs_Error: 9.09e-07
+  Modified False Position x:    1.3688082776 f(x):         0.0000035814    iter_count =        8    Abs_Error: 3.40e-07
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =        9    Abs_Error: 9.68e-10
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12
+***********
+Tolerance = 1e-08
+***********
+                Bisection x:    1.3688081037 f(x):        -0.0000000864    iter_count =       30    Abs_Error: 9.31e-09
+           False Position x:    1.3688077614 f(x):        -0.0000073072    iter_count =      101    Abs_Error: 5.74e-08
+  Modified False Position x:    1.3688081078 f(x):         0.0000000000    iter_count =       10    Abs_Error: 8.44e-15
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =        9    Abs_Error: 9.68e-10
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12
+***********
+Tolerance = 1e-10
+***********
+                Bisection x:    1.3688081079 f(x):         0.0000000011    iter_count =       37    Abs_Error: 7.28e-11
+           False Position x:    1.3688077614 f(x):        -0.0000073072    iter_count =      101    Abs_Error: 5.74e-08
+  Modified False Position x:    1.3688081078 f(x):         0.0000000000    iter_count =       10    Abs_Error: 8.44e-15
+                   Secant x:    1.3688081078 f(x):         0.0000000000    iter_count =       10    Abs_Error: 1.11e-15
+           Newtons Method x:    1.3688081078 f(x):         0.0000000000    iter_count =        6    Abs_Error: 1.29e-12

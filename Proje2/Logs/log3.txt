@@ -1,0 +1,58 @@
+
+------------------------------------------------------------
+Figure 3
+
+f =
+
+  function_handle with value:
+
+    @(x,y)2*x.^2+2*x.^2
+
+
+Benchmark_Approximation =
+
+     4.059494080240884e+02
+
+
+benchmark_runtime =
+
+   0.004474365000000
+
+Analytical Result
+
+myInt_approximation =
+
+     4.059494080239555e+02
+
+
+iter =
+
+     1
+
+
+error =
+
+     1.136868377216160e-13
+
+
+myIntegration_runtime =
+
+   0.002800185000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.328430698777083e-10
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.625828469514669
+
+------------------------------------------------------------
+
+
+
+

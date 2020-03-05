@@ -1,0 +1,54 @@
+
+------------------------------------------------------------
+Figure 16
+
+f =
+
+  function_handle with value:
+
+    @(x,y)sin(x).*cos(y).^2
+
+
+Benchmark_Approximation =
+
+  -4.838147661662848
+
+
+benchmark_runtime =
+
+   0.002944917000000
+
+Analytical Result
+
+myInt_approximation =
+
+  -4.838147786118201
+
+
+iter =
+
+     7
+
+
+error =
+
+     2.344559024464350e-09
+
+
+myIntegration_runtime =
+
+   0.237627383000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     1.244553526902337e-07
+
+ My integration/Benchmark runtime
+
+ratio =
+
+  80.690689415015768
+
+------------------------------------------------------------

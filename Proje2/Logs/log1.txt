@@ -1,0 +1,57 @@
+------------------------------------------------------------
+Figure 1
+
+f =
+
+  function_handle with value:
+
+    @(x,y)x+y
+
+
+Benchmark_Approximation =
+
+    -2.655475839219434e-11
+
+
+benchmark_runtime =
+
+   0.040964906000000
+
+Analytical Result
+
+myInt_approximation =
+
+     0
+
+
+iter =
+
+     1
+
+
+error =
+
+     0
+
+
+myIntegration_runtime =
+
+   0.029107875000000
+
+Absolute Difference between benchmark
+
+Absolute_Difference_Benchmark =
+
+     2.655475839219434e-11
+
+ My integration/Benchmark runtime
+
+ratio =
+
+   0.710556372325131
+
+------------------------------------------------------------
+
+
+
+
